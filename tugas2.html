@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|LTLG Hired|</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="challange.html" method="get">
+            <H1>LTLG</H1>
+            <p>Laboratory Assistant Registration</p>
+
+        <div class="desain">
+            <label for="nama">Nama Lengkap</label>
+        <input type="text" required>
+        <label for="nim">NIM</label>
+        <input type="text" required>
+        </div>
+
+        <div>
+              <div class="desain">
+        <label for="password">Password Portal</label>
+        <input type="password" required>
+        </div>
+ <div class="desain">
+        <label for="matkul">Matkul Praktikum</label>
+        <select id="matkul" name="matkul" required>
+          <option disabled selected>-- Pilih Matkul Praktikum --</option>
+          <option value="dw">Desain Web</option>
+          <option value="pd">Pemrograman Dasar</option>
+          <option value="kdjk">Komunikasi Data dan Jaringan Komputer</option>
+          <option value="msbd">Manajemen Sistem Basis Data</option>
+          <option value="di">Desain Interaksi</option>
+          <option value="pm">Pemrograman Mobile</option>
+          <option value="adj">Administrasi dan Desain Jaringan</option>
+           <option value="wb">Web Semantik</option>
+            <option value="pbol">Pemograman Berorientasi Objek Lanjutan</option>
+             <option value="adj">Administrasi dan Desain Jaringan</option>
+        </select>
+      </div>
+    <div class="desain">
+        <label for="alasan">Alasan Mendaftar LTLG</label>
+        <textarea id="alasan" name="alasan" placeholder="Tuliskan alasan Anda mendaftar..."></textarea>
+      </div>
+       <div class="desain">
+        <label>Jenis Kelamin</label>
+        <div class="radio-group">
+          <label><input type="radio" name="gender" id="pria"> Pria</label>
+          <label>
+            <input type="radio" name="gender" id="wanita"> Wanita
+          </label>
+        </div>
+      </div>
+      <div class="form-group checkbox-group">
+        <label for="peraturan">
+          <input type="checkbox" id="peraturan" name="peraturan" required>
+          Complete the registration form and agree to all regulations and willing to be responsible and committed in teaching.
+        </label>
+      </div>
+
+      <div class="button-group">
+        <input type="submit" class="btn btn-submit">
+        <button type="button" class="btn btn-secondary" onclick="alert('Masih Dalam Seleksi')">Cek Status</button>
+      </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Kotak Form di Tengah */
+form {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Judul */
+h1 {
+  text-align: center;
+  color: #0d6efd;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Jarak tiap kelompok input */
+.desain {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Style Input, Select, Textarea */
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+/* Radio Button & Checkbox */
+.radio-group {
+  margin-top: 5px;
+}
+
+.radio-group label,
+.checkbox-group label {
+  font-weight: normal;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.checkbox-group {
+  margin: 15px 0;
+}
+
+/* Tombol */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-submit {
+  background-color: #0d6efd;
+  color: white;
+  flex: 1;
+}
+
+.btn-secondary {
+  background-color: #e0e0e0;
+  color: #333;
+}
